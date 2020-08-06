@@ -1,0 +1,29 @@
+{
+  "name": "natual",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rollup -c -w & node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwj0417/naturalstuff.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cwj0417/naturalstuff/issues"
+  },
+  "homepage": "https://github.com/cwj0417/naturalstuff#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.24",
+    "express": "^4.17.1",
+    "rollup": "^2.22.2",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "rollup-plugin-uglify": "^6.0.4",
+    "typescript": "^3.9.7"
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "lib": ["ESNext", "DOM"],
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": false,
+        "outDir": "dist",
+        "downlevelIteration":true,
+        "module": "ESNext"
+    },
+}
