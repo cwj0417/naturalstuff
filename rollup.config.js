@@ -1,14 +1,14 @@
 import typescript from 'rollup-plugin-typescript2';
-import { uglify } from "rollup-plugin-uglify";
+import {terser} from 'rollup-plugin-terser';
 
 export default {
-    input: 'src/index.ts',
+    input: process.env.mode && process.env.mode === 'snake' ? 'snake/index.ts' : 'src/index.ts',
     output: {
         dir: 'dist',
         format: 'cjs',
     },
     plugins: [
         typescript(),
-        uglify(),
+        // terser(),
     ]
 }
